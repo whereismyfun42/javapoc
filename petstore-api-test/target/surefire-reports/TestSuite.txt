@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.768 s <<< FAILURE! - in TestSuite
+testInvalidStatus(com.petstore.tests.PetStoreApiTests)  Time elapsed: 0.677 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at com.petstore.tests.PetStoreApiTests.testInvalidStatus(PetStoreApiTests.java:51)
+

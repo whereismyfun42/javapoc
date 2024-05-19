@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.petstore.tests.PetStoreTest" time="5.138" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test\target\test-classes;C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test\target\classes;C:\Users\where\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\where\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\where\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\where\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\where\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\where\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\where\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\where\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\where\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\where\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\where\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\where\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\where\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\where\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\where\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\where\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.19.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\where\AppData\Local\Temp\surefire14177357693836150968\surefirebooter16650584538401365667.jar C:\Users\where\AppData\Local\Temp\surefire14177357693836150968 2024-05-19T22-48-49_234-jvmRun1 surefire18191994519618764174tmp surefire_013644243319329319637tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test\target\test-classes;C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test\target\classes;C:\Users\where\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\where\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\where\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\where\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\where\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\where\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\where\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\where\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\where\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\where\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\where\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\where\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\where\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\where\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\where\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\where\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\where\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\where\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\where\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\where"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.19.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\where\AppData\Local\Temp\surefire14177357693836150968\surefirebooter16650584538401365667.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+7-LTS"/>
+    <property name="user.name" value="where"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-7621296"/>
+    <property name="localRepository" value="C:\Users\where\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\where\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="C:\Users\where\OneDrive\Desktop\xakep\REINFORCE\petstore-api-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.19.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\PROGRA~1\MIE74D~1\JDK-11~1.7-H\bin;C:\PROGRA~1\COMMON~1\Oracle\Java\javapath;C:\PROGRA~2\COMMON~1\Oracle\Java\javapath;C:\PROGRA~2\VMware\VMWARE~1\bin\;C:\PROGRA~2\RAZERC~1\bin;C:\PROGRA~1\RAZERC~1\bin;C:\PROGRA~2\Razer\CHROMA~1\bin;C:\PROGRA~1\Razer\CHROMA~1\bin;C:\PROGRA~1\Oculus\Support\OCULUS~2;C:\tools\ruby31\bin;C:\PYTHON~1\Scripts\;C:\PYTHON~1\;C:\PROGRA~1\ECLIPS~1\JDK-11~1.8-H\bin;C:\PROGRA~1\NVIDIA~2\CUDA\v11.8\bin;C:\PROGRA~1\NVIDIA~2\CUDA\v11.8\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\PROGRA~2\NVIDIA~1\PhysX\Common;C:\PROGRA~1\NVIDIA~1\NVIDIA~2;C:\PROGRA~3\CHOCOL~1\bin;C:\PROGRA~1\dotnet\;C:\PROGRA~1\nodejs;C:\PROGRA~2\OH-MY-~1\bin;C:\PROGRA~1\MICROS~4\bin;C:\tools\winfetch;C:\PROGRA~2\Yarn\bin\;C:\PROGRA~1\MI3EDC~1\150\Tools\Binn\;C:\PROGRA~1\MI3EDC~1\CLIENT~1\ODBC\170\Tools\Binn\;C:\PROGRA~1\USBIPD~1\;C:\Users\where\AppData\Local\MICROS~1\WINDOW~1;C:\tools\dart-sdk\bin;C:\Users\where\AppData\Local\GITHUB~1\bin;C:\Users\where\go\bin;C:\PROGRA~3\CHOCOL~1\lib\mingw\tools\install\mingw64\bin;C:\tools\msys64;C:\PROGRA~2\Nmap;C:\Users\where\AppData\Roaming\npm;C:\PROGRA~1\OPENSS~1\bin;C:\Users\where\AppData\Local\Yarn\bin;C:\Users\where\AppData\Local\JETBRA~1\Toolbox\scripts;C:\Users\where\AppData\Roaming\Php;C:\PROGRA~1\OPENSS~2;C:\tools\php82;C:\PROGRA~1\OpenJDK\JDK-19~1.1\bin;C:\PROGRA~1\NVIDIA~1\NSIGHT~1.0\;C:\STRAWB~1\c\bin;C:\STRAWB~1\perl\site\bin;C:\STRAWB~1\perl\bin;C:\PROGRA~1\osquery;C:\PROGRA~1\POWERS~1\7\;C:\PROGRA~1\Git\cmd;C:\PROGRA~1\STREAM~1\bin;C:\PROGRA~1\Amazon\AWSCLIV2\;C:\PROGRA~1\Go\bin;C:\PROGRA~1\CMake\bin;C:\PROGRA~1\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\where\AppData\Local\Microsoft\WindowsApps;C:\Users\where\AppData\Local\GitHubDesktop\bin;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Program Files (x86)\Nmap;C:\Program Files\nodejs;C:\Program Files\OpenSSL-Win64\bin;C:\Users\where\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\where\AppData\Local\Programs\Fiddler;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\WireGuard\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.6\bin;C:\Users\where\.cargo\bin;C:\Users\where\scoop\shims;C:\Users\where\.dotnet\tools;C:\Users\where\AppData\Local\Programs\Ollama;C:\Users\where\.cargo\bin;C:\Program Files\OpenVPN\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Strawberry\perl\bin;C:\Program Files\Wireshark;C:\Users\where\Desktop\xakep\hashcat-6.2.6;C:\tools\Anaconda3;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.19+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testFindPetsByStatus" classname="com.petstore.tests.PetStoreTest" time="1.973">
+    <failure message="Expected status code 200 expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+</failure>
+    <system-out><![CDATA[{
+    "code": 404,
+    "type": "unknown",
+    "message": "java.lang.NumberFormatException: For input string: \"findPetsByStatus\""
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPetsByStatus" classname="com.petstore.tests.PetStoreTest" time="0.633">
+    <failure message="Expected status code 200 expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+</failure>
+    <system-out><![CDATA[{
+    "code": 404,
+    "type": "unknown",
+    "message": "java.lang.NumberFormatException: For input string: \"findPetsByStatus\""
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPetsByStatus" classname="com.petstore.tests.PetStoreTest" time="0.608">
+    <failure message="Expected status code 200 expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+</failure>
+    <system-out><![CDATA[{
+    "code": 404,
+    "type": "unknown",
+    "message": "java.lang.NumberFormatException: For input string: \"findPetsByStatus\""
+}
+]]></system-out>
+  </testcase>
+</testsuite>

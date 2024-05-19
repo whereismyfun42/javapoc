@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.petstore.tests.PetStoreTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.138 s <<< FAILURE! - in com.petstore.tests.PetStoreTest
+testFindPetsByStatus(com.petstore.tests.PetStoreTest)  Time elapsed: 1.973 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+
+testFindPetsByStatus(com.petstore.tests.PetStoreTest)  Time elapsed: 0.633 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+
+testFindPetsByStatus(com.petstore.tests.PetStoreTest)  Time elapsed: 0.608 s  <<< FAILURE!
+java.lang.AssertionError: Expected status code 200 expected [200] but found [404]
+	at com.petstore.tests.PetStoreTest.testFindPetsByStatus(PetStoreTest.java:33)
+

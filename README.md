@@ -1,4 +1,3 @@
-# nuvolartest
 
 # PetStore API Test Automation
 
